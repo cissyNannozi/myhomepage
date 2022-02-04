@@ -1,0 +1,69 @@
+/*h1{
+    color:red;
+    text-decoration: green underline;
+}*/
+
+
+.heading1{
+    color:red;
+    font-size: 50px;
+    
+}
+.first{
+    text-decoration: underline green;
+    
+}
+
+#shape{
+    background:red;
+    width:250px;
+    height:250px;
+    border-radius: 50%
+}
+#logo{
+width: 150px;
+height: 250px;
+border-radius: 50%;
+}
+
+
+.main-div{
+    border:red solid 12px;
+display:flex;
+justify-content: space-between;
+}
+.first-div{
+    border:green solid 12px;
+    flex-basis:20%;
+    box-shadow: 5px px black;
+}
+.second-div{
+    border:yellow solid 12px;
+    flex-basis:55%;
+}
+.third-div{
+    border:blue solid 12px;
+    flex-basis:20%;
+}
+
+.links{
+/* margin: auto; */
+    display: flex;
+    list-style-type: none;
+/*  justify-content: space-around;  */
+     background-color: red;
+    padding: 10px;
+}
+/*.links li{
+    
+}*/
+.links a{
+   color: white;
+   padding-right: 20px;
+   text-decoration: none;
+   font-size: 20px;
+}
+
+.links :hover{
+     background-color: black;
+}
